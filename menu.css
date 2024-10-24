@@ -87,6 +87,7 @@ p{
 }
 p a{
     color: black;
+    text-decoration: none;
 }
 .textgrande{
     font-family: Georgia, 'Times New Roman', Times, serif;
