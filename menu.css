@@ -1,0 +1,107 @@
+body{
+    background-color: darkolivegreen;
+}
+.menue{
+    background-color: rgb(16, 22, 6);
+    height: 800px;
+    width: 70%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-top: 40px ;
+}
+.d4{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d6{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d10{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d20{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.d100{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 94%;
+    height: 94%;
+    margin-left: 3%;
+    margin-top: 4px;
+}
+.jogo{
+    background-color: rgb(227, 247, 199);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    width: 94%;
+    height: 94%;
+    margin-left: 3%;
+    margin-top: 4px;
+    
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 65px;
+    
+}
+p a{
+    color: black;
+}
+.textgrande{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+.titulo{
+    width: 70%;
+    height: 97px;
+    background-color: rgb(57, 73, 30);
+    margin-left: 15%;
+}
+.textitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0px 0px 10px white;
+}
