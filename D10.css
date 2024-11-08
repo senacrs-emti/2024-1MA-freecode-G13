@@ -2,4 +2,64 @@
     height: 50px;
     width: 100px;
     transform: rotate(180deg);
-}
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(129, 129, 223);
+  }
+   
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .dado {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 1s ease;
+  }
+   
+  .face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: blueviolet;
+    border: 1px solid #333;
+  }
+   
+  .um {
+    transform: rotateY(0deg) translateZ(50px); 
+  }
+  
+  .dois {
+    transform: rotateY(180deg) translateZ(50px); 
+  }
+  
+  .tres {
+    transform: rotateY(-90deg) translateZ(50px); 
+  }
+  
+  .quatro {
+    transform: rotateY(90deg) translateZ(50px); 
+  }
+  
+  button {
+    margin-top: 40px;
+    padding: 2px 2px;
+    font-size: 30px;
+    cursor: pointer;
+  }
