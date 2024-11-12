@@ -37,12 +37,12 @@ body {
   }
   
   /* Configurações de cada face para simular um prisma pentagonal */
-  .um   { transform: rotateY(0deg) translateZ(155px); }
-  .dois { transform: rotateY(36deg) translateZ(155px); }
-  .tres { transform: rotateY(72deg) translateZ(155px); }
-  .quatro { transform: rotateY(108deg) translateZ(155px); }
-  .cinco { transform: rotateY(144deg) translateZ(155px); }
-  .seis { transform: rotateY(180deg) translateZ(155px); }
+  .um   { transform: rotateY(0deg) translateZ(170px); }
+  .dois { transform: rotateY(36deg) translateZ(170px); }
+  .tres { transform: rotateY(72deg) translateZ(170px); }
+  .quatro { transform: rotateY(108deg) translateZ(170px); }
+  .cinco { transform: rotateY(144deg) translateZ(170px); }
+  .seis { transform: rotateY(180deg) translateZ(170px); }
   .sete { transform: rotateY(216deg) translateZ(155px); }
   .oito { transform: rotateY(252deg) translateZ(155px); }
   .nove { transform: rotateY(288deg) translateZ(155px); }
