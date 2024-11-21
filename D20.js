@@ -3,7 +3,7 @@ const botao = document.getElementById('rolarDado');
  
 // Função para gerar uma rotação aleatória
 function rolarDado() {
-  const numero = Math.floor(Math.random() * 10) + 1;
+  const numero = Math.floor(Math.random() * 20) + 1;
   let x, y;
   switch (numero) {
     case 1: x = 0; y = 0; break;

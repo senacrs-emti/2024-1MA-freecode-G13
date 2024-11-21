@@ -16,7 +16,7 @@ body {
   
   .dado {
     position: relative;
-    width: 100px;
+    width: 200px;
     height: 100px;
     transform-style: preserve-3d;
     transform: rotateX(0deg) rotateY(0deg);
@@ -31,32 +31,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1em;
     color: black;
     border: 1px solid #333;
   }
   
   /* Configurações de cada face para simular um prisma pentagonal */
-  .um   { transform: rotateY(0deg) translateZ(170px); }
-  .dois { transform: rotateY(36deg) translateZ(170px); }
-  .tres { transform: rotateY(72deg) translateZ(170px); }
-  .quatro { transform: rotateY(108deg) translateZ(170px); }
-  .cinco { transform: rotateY(144deg) translateZ(170px); }
-  .seis { transform: rotateY(180deg) translateZ(170px); }
-  .sete { transform: rotateY(216deg) translateZ(155px); }
-  .oito { transform: rotateY(252deg) translateZ(155px); }
-  .nove { transform: rotateY(288deg) translateZ(155px); }
-  .dez { transform: rotateY(324deg) translateZ(155px); }
-  .onze { transform: rotateY(324deg) translateZ(155px); }
-  .doze { transform: rotateY(342deg) translateZ(155px); }
-  .treze { transform: rotateY(360deg) translateZ(155px); }
-  .face-quatroze { transform: rotateY(-36deg) translateZ(155px); }
-  .face-quinze { transform: rotateY(-72deg) translateZ(155px); }
-  .dezeseis { transform: rotateY(-108deg) translateZ(155px); }
-  .dezesete { transform: rotateY(-144deg) translateZ(155px); }
-  .dezoito { transform: rotateY(-180deg) translateZ(155px); }
-  .dezenove { transform: rotateY(-216deg) translateZ(155px); }
-  .vinte { transform: rotateY(-255deg) translateZ(155px); }
+  .um   { transform: rotateY(0deg) translateZ(155px); }
+  .dois { transform: rotateY(18deg) translateZ(155px); }
+  .tres { transform: rotateY(36deg) translateZ(155px); }
+  .quatro { transform: rotateY(54deg) translateZ(155px); }
+  .cinco { transform: rotateY(72deg) translateZ(155px); }
+  .seis { transform: rotateY(90deg) translateZ(155px); }
+  .sete { transform: rotateY(108deg) translateZ(155px); }
+  .oito { transform: rotateY(126deg) translateZ(155px); }
+  .nove { transform: rotateY(144deg) translateZ(155px); }
+  .dez { transform: rotateY(162deg) translateZ(155px); }
+  .onze { transform: rotateY(180deg) translateZ(155px); }
+  .doze { transform: rotateY(198deg) translateZ(155px); }
+  .treze { transform: rotateY(216deg) translateZ(155px); }
+  .quatroze { transform: rotateY(234deg) translateZ(155px); }
+  .quinze { transform: rotateY(252deg) translateZ(155px); }
+  .dezeseis { transform: rotateY(270deg) translateZ(155px); }
+  .dezesete { transform: rotateY(288deg) translateZ(155px); }
+  .dezoito { transform: rotateY(306deg) translateZ(155px); }
+  .dezenove { transform: rotateY(324deg) translateZ(155px); }
+  .vinte { transform: rotateY(342deg) translateZ(155px); }
   
   button {
     margin-top: 40px;

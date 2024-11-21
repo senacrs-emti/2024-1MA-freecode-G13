@@ -44,9 +44,9 @@
   .um {
     transform: rotateY(0deg) translateZ(50px); 
   }
-  
+
   .dois {
-    transform: rotateY(180deg) translateZ(50px); 
+    transform: rotateX(-90deg) translateZ(50px); 
   }
   
   .tres {
@@ -62,7 +62,7 @@
   }
   
   .seis {
-    transform: rotateX(-90deg) translateZ(50px); 
+    transform: rotateY(180deg) translateZ(50px); 
   }
    
   button {
