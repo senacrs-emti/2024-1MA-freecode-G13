@@ -36,19 +36,6 @@ body {
   border: 1px solid #333;
 }
 
-.face2{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  color: black;
-  border: 1px solid #333;
-}
-
 .um   { transform: rotateY(144deg) translateZ(100px) rotateX(-45deg); }
 
 .dois { transform: rotateY(288deg) translateZ(100px) rotateX(-45deg); }
@@ -77,9 +64,6 @@ body {
 
 .dez { transform: rotateY(720deg) translateZ(100px) rotateX(45deg);
   margin-top: -70px;
-}
-.buracoum {
- 
 }
 
 button {
