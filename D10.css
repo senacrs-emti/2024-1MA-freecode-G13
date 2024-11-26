@@ -33,7 +33,6 @@ body {
   align-items: center;
   font-size: 2em;
   color: black;
-  border: 1px solid #333;
 }
 
 .um   { transform: rotateY(144deg) translateZ(100px) rotateX(-45deg); }
@@ -75,7 +74,45 @@ button {
 
 .tapa {
   height: 70px;
+  
 }
 
-.buraco{ transform: rotateY(720deg) translateZ(100px) rotateX(-45deg);
+.buraco{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco2{ transform: rotateY(-64deg) translateZ(100px) rotateX(-40deg);
+  background-color: blue;
+}
+
+.buraco3{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+  background-color: red;
+}
+
+.buraco4{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco5{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco6{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco7{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco8{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco9{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.buraco10{ transform: rotateY(-32deg) translateZ(100px) rotateX(-40deg);
+}
+
+.tapa{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 100px 40px 0 40px;
+  border-color: white transparent transparent transparent;
 }
