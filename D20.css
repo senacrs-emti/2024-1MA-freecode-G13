@@ -1,67 +1,74 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(129, 129, 223);
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .dado {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    transform-style: preserve-3d;
-    transform: rotateX(0deg) rotateY(0deg);
-    transition: transform 1s ease;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(129, 129, 223);
+}
 
-  .face {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    color: black;
-    border: 1px solid #333;
-  }
-  
-  /* Configurações de cada face para simular um prisma pentagonal */
-  .um   { transform: rotateY(0deg) translateZ(155px); }
-  .dois { transform: rotateY(18deg) translateZ(155px); }
-  .tres { transform: rotateY(36deg) translateZ(155px); }
-  .quatro { transform: rotateY(54deg) translateZ(155px); }
-  .cinco { transform: rotateY(72deg) translateZ(155px); }
-  .seis { transform: rotateY(90deg) translateZ(155px); }
-  .sete { transform: rotateY(108deg) translateZ(155px); }
-  .oito { transform: rotateY(126deg) translateZ(155px); }
-  .nove { transform: rotateY(144deg) translateZ(155px); }
-  .dez { transform: rotateY(162deg) translateZ(155px); }
-  .onze { transform: rotateY(180deg) translateZ(155px); }
-  .doze { transform: rotateY(198deg) translateZ(155px); }
-  .treze { transform: rotateY(216deg) translateZ(155px); }
-  .quatroze { transform: rotateY(234deg) translateZ(155px); }
-  .quinze { transform: rotateY(252deg) translateZ(155px); }
-  .dezeseis { transform: rotateY(270deg) translateZ(155px); }
-  .dezesete { transform: rotateY(288deg) translateZ(155px); }
-  .dezoito { transform: rotateY(306deg) translateZ(155px); }
-  .dezenove { transform: rotateY(324deg) translateZ(155px); }
-  .vinte { transform: rotateY(342deg) translateZ(155px); }
-  
-  button {
-    margin-top: 40px;
-    padding: 2px 2px;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dado {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: transform 1s ease;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: black;
+  border: 1px solid #333;
+}
+
+.um   { transform: rotateY(144deg) translateZ(100px) rotateX(-45deg); }
+
+.dois { transform: rotateY(288deg) translateZ(100px) rotateX(-45deg); }
+
+.tres { transform: rotateY(432deg) translateZ(100px) rotateX(-45deg); }
+
+.quatro { transform: rotateY(576deg) translateZ(100px) rotateX(-45deg); }
+
+.cinco { transform: rotateY(720deg) translateZ(100px) rotateX(-45deg); }
+
+.seis { transform: rotateY(144deg) translateZ(100px) rotateX(45deg); 
+  margin-top: -70px;
+}
+
+.sete { transform: rotateY(288deg) translateZ(100px) rotateX(45deg); 
+  margin-top: -70px;
+}
+
+.oito { transform: rotateY(432deg) translateZ(100px) rotateX(45deg); 
+  margin-top: -70px;
+}
+
+.nove { transform: rotateY(576deg) translateZ(100px) rotateX(45deg); 
+  margin-top: -70px;
+}
+
+.dez { transform: rotateY(720deg) translateZ(100px) rotateX(45deg);
+  margin-top: -70px;
+}
+
+button {
+  margin-top: 40px;
+  padding: 2px 2px;
+  font-size: 30px;
+  cursor: pointer;
+}

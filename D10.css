@@ -72,3 +72,10 @@ button {
   font-size: 30px;
   cursor: pointer;
 }
+
+.tapa {
+  height: 70px;
+}
+
+.buraco{ transform: rotateY(720deg) translateZ(100px) rotateX(-45deg);
+}
