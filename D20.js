@@ -27,7 +27,7 @@ function rolarDado() {
     case 19: x = 0; y = 342; break;
     case 20: x = 0; y = 360; break;
   }
- 
+  console.log(numero);
   dado.style.transform = `rotateY(${y}deg)`;
 }
  

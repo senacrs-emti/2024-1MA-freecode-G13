@@ -36,38 +36,78 @@ body {
   border: 1px solid #333;
 }
 
-.um   { transform: rotateY(144deg) translateZ(100px) rotateX(-45deg); }
+.um   { transform: rotateY(144deg) translateZ(100px) rotateX(-20deg); }
 
-.dois { transform: rotateY(288deg) translateZ(100px) rotateX(-45deg); }
+.dois { transform: rotateY(288deg) translateZ(100px) rotateX(-20deg); }
 
-.tres { transform: rotateY(432deg) translateZ(100px) rotateX(-45deg); }
+.tres { transform: rotateY(432deg) translateZ(100px) rotateX(-20deg); }
 
-.quatro { transform: rotateY(576deg) translateZ(100px) rotateX(-45deg); }
+.quatro { transform: rotateY(576deg) translateZ(100px) rotateX(-20deg); }
 
-.cinco { transform: rotateY(720deg) translateZ(100px) rotateX(-45deg); }
+.cinco { transform: rotateY(720deg) translateZ(100px) rotateX(-20deg); }
 
-.seis { transform: rotateY(144deg) translateZ(100px) rotateX(45deg); 
-  margin-top: -70px;
+.seis { transform: rotateY(144deg) translateZ(100px) rotateX(20deg); 
+  margin-top: -95px;
 }
 
-.sete { transform: rotateY(288deg) translateZ(100px) rotateX(45deg); 
-  margin-top: -70px;
+.sete { transform: rotateY(288deg) translateZ(100px) rotateX(20deg); 
+  margin-top: -95px;
 }
 
-.oito { transform: rotateY(432deg) translateZ(100px) rotateX(45deg); 
-  margin-top: -70px;
+.oito { transform: rotateY(432deg) translateZ(100px) rotateX(20deg); 
+  margin-top: -95px;
 }
 
-.nove { transform: rotateY(576deg) translateZ(100px) rotateX(45deg); 
-  margin-top: -70px;
+.nove { transform: rotateY(576deg) translateZ(100px) rotateX(20deg); 
+  margin-top: -95px;
 }
 
-.dez { transform: rotateY(720deg) translateZ(100px) rotateX(45deg);
-  margin-top: -70px;
+.dez { transform: rotateY(720deg) translateZ(100px) rotateX(20deg);
+  margin-top: -95px;
+}
+
+.onze{ transform: rotateY(72deg) translateZ(52px) rotateX(-40deg);
+margin-top: 85px;
+}
+
+.doze{ transform: rotateY(144deg) translateZ(52px) rotateX(-40deg);
+  margin-top: 85px;
+}
+
+.treze{ transform: rotateY(216deg) translateZ(52px) rotateX(-40deg);
+  margin-top: 85px;
+}
+
+.quatorze{ transform: rotateY(288deg) translateZ(52px) rotateX(-40deg);
+  margin-top: 85px;
+}
+
+.quinze{ transform: rotateY(360deg) translateZ(52px) rotateX(-40deg);
+  margin-top: 85px;
+}
+
+.dezeseis{ transform: rotateY(432deg) translateZ(52px) rotateX(40deg);
+  margin-top: -180px;
+}
+
+.dezesete{ transform: rotateY(504deg) translateZ(52px) rotateX(40deg);
+  margin-top: -180px;
+}
+
+.dezoito{ transform: rotateY(576deg) translateZ(52px) rotateX(40deg);
+  margin-top: -180px;
+}
+
+.dezenove{ transform: rotateY(648deg) translateZ(52px) rotateX(40deg);
+  margin-top: -180px;
+}
+
+.vinte{ transform: rotateY(720deg) translateZ(52px) rotateX(40deg);
+  margin-top: -180px;
 }
 
 button {
-  margin-top: 40px;
+  margin-top: 150px;
   padding: 2px 2px;
   font-size: 30px;
   cursor: pointer;
