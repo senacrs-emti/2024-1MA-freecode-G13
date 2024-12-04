@@ -1,6 +1,169 @@
 body{
     background-color: rgb(16, 22, 6);
     display: grid;
-    grid-template-columns: 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2%;
-    grid-template-rows: 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4%;
+    height: 1000px;
+    width: 100%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    gap: 10px;
+}
+
+.topo{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: black;
+}
+
+.dado{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: gray;
+}
+
+.topo2{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: black;
+}
+
+.inicio{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: white;
+}
+
+.casa1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa3{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa4{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa5{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa6{
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa7{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa8{
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa9{
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 2;  
+    background-color: white;
+}
+
+.casa10{
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 3;  
+    background-color: white;
+}
+
+.casa11{
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
+}
+
+.casa12{
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
+}
+
+.casa13{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
+}
+
+.casa14{
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
+}
+
+.casa15{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
+}
+
+.casa16{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;  
+    background-color: white;
 }

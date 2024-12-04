@@ -6,29 +6,29 @@ function rolarDado() {
   const numero = Math.floor(Math.random() * 20) + 1;
   let x, y;
   switch (numero) {
-    case 1: x = 0; y = 0; break;
-    case 2: x = 0; y = 18; break;
-    case 3: x = 0; y = 36; break;
-    case 4: x = 0; y = 54; break;
-    case 5: x = 0; y = 72; break;
-    case 6: x = 0; y = 90; break;
-    case 7: x = 0; y = 108; break;
-    case 8: x = 0; y = 126; break;
-    case 9: x = 0; y = 144; break;
-    case 10: x = 0; y = 162; break;
-    case 11: x = 0; y = 198; break;
-    case 12: x = 0; y = 216; break;
-    case 13: x = 0; y = 234; break;
-    case 14: x = 0; y = 252; break;
-    case 15: x = 0; y = 270; break;
-    case 16: x = 0; y = 288; break;
-    case 17: x = 0; y = 306; break;
-    case 18: x = 0; y = 324; break;
-    case 19: x = 0; y = 342; break;
-    case 20: x = 0; y = 360; break;
+    case 1: x = 14; y = -144; break;
+    case 2: x = 14; y = 70; break;
+    case 3: x = 14; y = -70; break;
+    case 4: x = 14; y = 143; break;
+    case 5: x = 14; y = 0; break;
+    case 6: x = -34; y = 216; break;
+    case 7: x = -34; y = 70; break;
+    case 8: x = -34; y = -70; break;
+    case 9: x = -34; y = 144; break;
+    case 10: x = -34; y = 0; break;
+    case 11: x = 45; y = -70; break;
+    case 12: x = 45; y = 216; break;
+    case 13: x = 45; y = 145; break;
+    case 14: x = 45; y = 70; break;
+    case 15: x = 45; y = 0; break;
+    case 16: x = -70; y = -70; break;
+    case 17: x = -70; y = 217; break;
+    case 18: x = -70; y = -215; break;
+    case 19: x = -70; y = 70; break;
+    case 20: x = -70; y = 0; break;
   }
   console.log(numero);
-  dado.style.transform = `rotateY(${y}deg)`;
+  dado.style.transform = `rotateX(${x}deg) rotateY(${y}deg)`;
 }
  
 botao.addEventListener('click', rolarDado);

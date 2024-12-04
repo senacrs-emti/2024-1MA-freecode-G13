@@ -86,24 +86,24 @@ margin-top: 85px;
   margin-top: 85px;
 }
 
-.dezeseis{ transform: rotateY(432deg) translateZ(52px) rotateX(40deg);
-  margin-top: -180px;
+.dezeseis{ transform: rotateY(432deg) translateZ(60px) rotateX(30deg);
+  margin-top: -185px;
 }
 
-.dezesete{ transform: rotateY(504deg) translateZ(52px) rotateX(40deg);
-  margin-top: -180px;
+.dezesete{ transform: rotateY(504deg) translateZ(60px) rotateX(30deg);
+  margin-top: -185px;
 }
 
-.dezoito{ transform: rotateY(576deg) translateZ(52px) rotateX(40deg);
-  margin-top: -180px;
+.dezoito{ transform: rotateY(576deg) translateZ(60px) rotateX(30deg);
+  margin-top: -185px;
 }
 
-.dezenove{ transform: rotateY(648deg) translateZ(52px) rotateX(40deg);
-  margin-top: -180px;
+.dezenove{ transform: rotateY(648deg) translateZ(60px) rotateX(30deg);
+  margin-top: -185px;
 }
 
-.vinte{ transform: rotateY(720deg) translateZ(52px) rotateX(40deg);
-  margin-top: -180px;
+.vinte{ transform: rotateY(720deg) translateZ(60px) rotateX(30deg);
+  margin-top: -185px;
 }
 
 button {
