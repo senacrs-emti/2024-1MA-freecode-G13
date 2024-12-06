@@ -6,6 +6,27 @@ body{
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     gap: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.marcaBoneco{
+    background-image: url('./boneco.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcaBoneco2{
+    background-image: url('./boneco2.png');
+}
+
+.marcaBoneco3{
+    background-image: url('./bolaazul.png');
+}
+
+.marcaBoneco4{
+    background-image: url('./bolapreto.png');
 }
 
 .topo{
@@ -14,6 +35,8 @@ body{
     grid-row-start: 1;
     grid-row-end: 1;
     background-color: black;
+    color: white;
+    text-align: end;
 }
 
 .dado{
@@ -21,7 +44,8 @@ body{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: gray;
+    background-color: white;
+    text-align: center;
 }
 
 .topo2{
@@ -30,6 +54,8 @@ body{
     grid-row-start: 1;
     grid-row-end: 1;
     background-color: black;
+    color: white;
+    text-align:start;
 }
 
 .inicio{
@@ -447,4 +473,5 @@ body{
     grid-row-end: 10;  
     background-color: white;
     font-size: 100px;
+    text-align: center;
 }
